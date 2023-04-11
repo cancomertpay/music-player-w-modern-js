@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Music Player by Can Cömertpay</title>
+    <title>Music Player App by Can Cömertpay</title>
 
     <!-- FontAwesome 6.4.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
     <div class="container">
       <div class="card shadow-lg rounded">
         <img id="music-image" class="card-img-top">
@@ -26,19 +25,17 @@
           <p class="singer"></p>
         </div>
         <div class="card-body">
-
           <div id="progress">
             <input type="range" id="progress-bar" class="form-range">
             <div class="times">
               <span id="current-time">
-                0:00
+                
               </span>
               <span id="duration">
-                0:00
+                
               </span>
             </div>
           </div>
-
           <div id="controls" class="text-center">
             <button id="prev" class="btn btn-primary rounded-circle">
               <i class="fa-solid fa-backward-step"></i>
@@ -50,9 +47,7 @@
               <i class="fa-solid fa-forward-step"></i>
             </button>
           </div>
-
         </div>
-
         <div class="card-footer">
           <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#music-list">
             <i class="fa-solid fa-bars"></i>
@@ -62,21 +57,11 @@
             <input type="range" id="volume-bar" max="100" value="100" class="form-range">
           </div>
         </div>
-
         <div id="music-list" class="collapse">
           <ul class="list-group list-group-flush">
-            <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
-              <span>Boşver - Nilüfer </span>
-              <span class="badge bg-primary rounded-pill">3:40</span>
-            </li> -->
+            
           </ul>
         </div>
-
-
-
-
-
-
       </div>
     </div>
 
